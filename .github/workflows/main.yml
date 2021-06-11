@@ -14,7 +14,7 @@ jobs:
         run: npm install
       - name: Run Linting
         run: yarn lint
-  securitya check:
+  security_check:
     name: security and vulnerability check
     runs-on: ubuntu-latest
     steps:
